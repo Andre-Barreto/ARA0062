@@ -1,0 +1,115 @@
+.btn-editar{
+    color: #fff !important;
+}
+.tamanho-largura {
+    max-width: 500px;
+    height: auto;
+    left: 50%;
+    margin: -200px 0 0 -210px;
+    padding: 40px;
+    position: absolute;
+    top: 35%;
+    border: 2px solid #f3f3f3;
+    border-radius: 15px;
+    -webkit-box-shadow: 10px 10px 47px -3px rgba(161, 161, 161, 1);
+    -moz-box-shadow: 10px 10px 47px -3px rgba(161, 161, 161, 1);
+    box-shadow: 10px 10px 47px -3px rgba(161, 161, 161, 1);
+}
+
+
+
+h7{
+    font-family: "Sofia";
+    font-size: 30px;
+    padding-left: 80px;
+  }
+  h8{
+    font-family: "fantasy";
+    font-size: 30px;
+    padding-left: 80px;
+  }
+  h9{
+    font-family: "fantasy";
+    font-size: 40px;
+    padding-left: 80px;
+    text-emphasis:center;
+  }
+  h10{
+    padding-left:350px ;
+    font-family: "fantasy";
+    font-size: 30px;
+  }
+  h11{
+    padding-left:450px ;
+    font-family: "fantasy";
+    font-size: 30px;
+  }
+  p.center {
+    text-align: center;
+    color:red;
+    font-size: 40px;
+  }
+  p.center1 {
+    font-family: "fantasy";
+    text-align: center;
+    color:black;
+    font-size: 40px;
+  }
+  p.center2 {
+    text-align: center;
+    color:black;
+    font-size: 40px;
+  }
+  .btn {
+    background-color: DodgerBlue;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+  }
+ 
+ 
+  /* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding */
+.row {margin: 0 -5px;}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+            
+}
+td{
+  background-color:azure;
+  
+}
+th{
+  background-color:LightCyan;
+  
+}
+
